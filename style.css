@@ -152,12 +152,12 @@ a{
         display: none;
     }
     .main_logo-container{
-        margin: 5rem auto 0;
+        margin: 4cqh auto 0;
         display: flex;
         justify-content: center;
     }
     .main_logo{
-        width: 60%;
+        width: 55%;
     }
     .main_buttoms-container{
         display: none;
@@ -165,6 +165,19 @@ a{
     .main_change-lenguage-option{
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .footer-container{
+        background-color: #f2f2f2;
+        border: #dadce0;
+        position: fixed;
+        bottom: 0rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-list{
+        padding: 2.5%;
     }
 }
 
